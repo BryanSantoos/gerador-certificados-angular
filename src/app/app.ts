@@ -3,11 +3,11 @@ import { Navbar } from "./_components/navbar/navbar";
 import { CommonModule } from '@angular/common';
 import { BaseUi } from "./_components/base-ui/base-ui";
 import { Certificados } from "./pages/certificados/certificados";
-import { CertificadoForm } from "./pages/certificado-form/certificado-form";
+import { Certificado } from "./pages/certificado/certificado";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, CommonModule, BaseUi, Certificados, CertificadoForm],
+  imports: [Navbar, CommonModule, BaseUi, Certificado, Certificados],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
